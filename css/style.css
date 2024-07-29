@@ -139,7 +139,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    width: 20%;
 }
 
 .nav {
@@ -332,10 +332,13 @@ header {
     }
 }
 
+/* About Me */
+
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
     padding-bottom: 4em;
+    padding-left: 1em;
 }
 
 .about-me__img {
