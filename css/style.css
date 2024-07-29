@@ -287,10 +287,10 @@ header {
     padding-left: 2.3em;
     padding-right: 2.3em;
     padding-bottom: 4.3em;
-    background-color: var(--clr-dark);
-    background-image: url(../img/portfolio-01.jpg);
+    background-color: rgba(0, 0, 0, 0.5); /* Use rgba for semi-transparent color */
+    background-image: url('../img/portfolio-01.jpg');
     background-size: cover;
-    /* background-blend-mode: multiply; */
+    background-blend-mode: overlay; /* Blends the background color with the image */
     color: var(--clr-light);
     text-align: center;
 }
@@ -343,6 +343,7 @@ header {
 
 .about-me__img {
     width: 100%;
+    height: 65%;
     box-shadow: var(--bs);
     margin-top: 4em;
 }
